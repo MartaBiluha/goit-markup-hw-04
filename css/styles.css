@@ -122,7 +122,7 @@ header > .container {
   margin-right: 10px;
   fill: currentColor;
 }
-.contact-icon:last-child {
+.contact-link:last-child {
   margin-left: 30px;
 }
 
@@ -141,7 +141,7 @@ main {
   rgba(47, 48, 58, 0.4)),
   url("../images/Img-Overlay.jpg");
   max-width: 1600px;
-
+margin-left: auto;
 }
 
 .hero-title {
@@ -288,6 +288,7 @@ main {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 270px;
 }
 
 .team-member:last-child {
@@ -572,6 +573,10 @@ margin-right: 10px;
   padding: 0;
   margin: 0;
   justify-content: space-between;
+}
+
+.work-example-image {
+  max-width: 100$;
 }
 
 .work-example-item {
