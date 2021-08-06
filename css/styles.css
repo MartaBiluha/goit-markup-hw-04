@@ -142,6 +142,7 @@ main {
   url("../images/Img-Overlay.jpg");
   max-width: 1600px;
 margin-left: auto;
+margin-right: auto;
 }
 
 .hero-title {
@@ -576,7 +577,7 @@ margin-right: 10px;
 }
 
 .work-example-image {
-  max-width: 100$;
+  max-width: 100%;
 }
 
 .work-example-item {
